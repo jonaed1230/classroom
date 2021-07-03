@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap');
+
+* {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+html, body {
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: aliceblue;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* sider height 550px */
+.sider {
+  width: 220px;
+  height: 400px;
+  padding: 125px 50px;
+  background-color: #2786FF;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  box-shadow: 0px 0px 15px 0 #707070;
+}
+.sider__container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.sider__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-text {
+  font-size: 42px;
+}
+
+.sub-text {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.receipt-icon {
+  font-size: 40px;
+  color: #276DF4;
+}
+
+.receipt {
+  color: #747272;
+  width: 380px;
+  padding: 50px 0;
+  height: 580px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 15px 0px #707070;
+}
+
+.receipt__header {
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 35px;
+}
+
+.line {
+  margin-top: 25px;
+  border: none;
+  border-top: 1px solid #d6d6d6;
+}
+
+.receipt__main {
+  margin-top: 70px;
+  padding: 50px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.receipt__total {
+  margin-top: 100px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.amount {
+  font-size: 35px;
+}
